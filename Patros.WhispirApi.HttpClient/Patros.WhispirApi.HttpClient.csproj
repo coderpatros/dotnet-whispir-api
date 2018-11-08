@@ -6,10 +6,10 @@
     <Authors>Patrick T Dwyer</Authors>
     <Company></Company>
     <Description>This package implements a HttpClient with handles Whispir API authentication requirements.</Description>
-    <PackageProjectUrl>https://github.com/patros/WhispirApi</PackageProjectUrl>
-    <PackageLicenseUrl>https://github.com/patros/WhispirApi/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/patros/dotnet-whispir-api</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/patros/dotnet-whispir-api/blob/master/LICENSE</PackageLicenseUrl>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/patros/WhispirApi.git</RepositoryUrl>
+    <RepositoryUrl>https://github.com/patros/dotnet-whispir-api.git</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
