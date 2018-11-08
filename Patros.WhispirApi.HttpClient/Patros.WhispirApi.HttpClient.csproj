@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Patros.AuthenticatedHttpClient.Basic" Version="1.2.0" />
+    <PackageReference Include="Patros.AuthenticatedHttpClient.CustomHeader" Version="1.2.0" />
+    <PackageReference Include="Patros.AuthenticatedHttpClient.QueryStringParameter" Version="1.2.0" />
+  </ItemGroup>
+
+</Project>
