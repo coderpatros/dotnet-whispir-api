@@ -12,7 +12,7 @@ dotnet add package Patros.WhispirApi.HttpClient
 ```
 
 ```csharp
-using Patros.AuthenticatedHttpClient;
+using Patros.WhispirApi;
 
 ...
 
