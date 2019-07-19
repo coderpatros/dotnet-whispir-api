@@ -15,7 +15,7 @@
   <ItemGroup>
     <PackageReference Include="Patros.AuthenticatedHttpClient.Basic" Version="1.2.7" />
     <PackageReference Include="Patros.AuthenticatedHttpClient.CustomHeader" Version="1.2.6" />
-    <PackageReference Include="Patros.AuthenticatedHttpClient.QueryStringParameter" Version="1.2.6" />
+    <PackageReference Include="Patros.AuthenticatedHttpClient.QueryStringParameter" Version="1.2.8" />
   </ItemGroup>
 
 </Project>
