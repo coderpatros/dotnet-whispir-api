@@ -23,7 +23,7 @@ namespace Patros.WhispirApi.HttpClient.Tests
                 ApiKey = "test-api-key"
             }, mockHttp);
 
-            var responseContent = await client.GetStringAsync("http://www.example.com");
+            await client.GetStringAsync("http://www.example.com");
 
             mockHttp.VerifyNoOutstandingExpectation();
         }
