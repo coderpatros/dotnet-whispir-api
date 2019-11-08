@@ -5,16 +5,35 @@ namespace Patros.WhispirApi
 {
     public class WhispirApiHttpMessageHandler : DelegatingHandler
     {
-        public WhispirApiHttpMessageHandler(WhispirApiHttpClientOptions options, HttpMessageHandler innerHandler = null)
+        public WhispirApiHttpMessageHandler(WhispirApiHttpClientOptions options) : this(options, null)
         {
-            var basicAuthHandler = new BasicAuthenticatedHttpMessageHandler(
-                new BasicAuthenticatedHttpClientOptions
-                {
-                    UserId = options.Username,
-                    Password = options.Password
-                },
-                innerHandler
-            );
+        }
+
+        public WhispirApiHttpMessageHandler(WhispirApiHttpClientOptions options, HttpMessageHandler innerHandler)
+        {
+            BasicAuthenticatedHttpMessageHandler basicAuthHandler;
+            
+            if (innerHandler == null)
+            {
+                basicAuthHandler = new BasicAuthenticatedHttpMessageHandler(
+                    new BasicAuthenticatedHttpClientOptions
+                    {
+                        UserId = options.Username,
+                        Password = options.Password
+                    }
+                );
+            }
+            else
+            {
+                basicAuthHandler = new BasicAuthenticatedHttpMessageHandler(
+                    new BasicAuthenticatedHttpClientOptions
+                    {
+                        UserId = options.Username,
+                        Password = options.Password
+                    },
+                    innerHandler
+                );
+            }
 
             var customHeaderAuthHandler = new CustomHeaderAuthenticatedHttpMessageHandler(
                 new CustomHeaderAuthenticatedHttpClientOptions
