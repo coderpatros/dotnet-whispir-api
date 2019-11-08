@@ -7,7 +7,7 @@ with the Whispir API.
 Example Usage
 -------------
 
-```
+```shell
 dotnet add package Patros.WhispirApi.HttpClient
 ```
 
