@@ -1,3 +1,5 @@
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcoderpatros%2Fdotnet-whispir-api.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcoderpatros%2Fdotnet-whispir-api?ref=badge_shield)
+
 Whispir Api Http Client
 =======================
 
@@ -29,3 +31,7 @@ var client = WhispirApiHttpClient.GetClient(options);
 
 That's it for now. There's a .net SDK in the works. So I'll hold off to see
 where that gets to before doing anything further.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcoderpatros%2Fdotnet-whispir-api.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcoderpatros%2Fdotnet-whispir-api?ref=badge_large)
