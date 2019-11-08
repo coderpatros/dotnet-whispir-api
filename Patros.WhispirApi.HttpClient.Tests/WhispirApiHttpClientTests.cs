@@ -1,12 +1,7 @@
-using System;
-using System.Collections.Generic;
 using System.Net;
-using System.Threading;
 using System.Threading.Tasks;
-using Newtonsoft.Json;
 using Xunit;
 using RichardSzalay.MockHttp;
-using Patros.WhispirApi;
 
 namespace Patros.WhispirApi.HttpClient.Tests
 {
