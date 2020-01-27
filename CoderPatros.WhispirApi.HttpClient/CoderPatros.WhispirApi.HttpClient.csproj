@@ -7,7 +7,7 @@
     <Company></Company>
     <Description>This package implements a HttpClient with handles Whispir API authentication requirements.</Description>
     <PackageProjectUrl>https://github.com/coderpatros/dotnet-whispir-api</PackageProjectUrl>
-    <PackageLicenseUrl>https://github.com/coderpatros/dotnet-whispir-api/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/coderpatros/dotnet-whispir-api.git</RepositoryUrl>
   </PropertyGroup>
