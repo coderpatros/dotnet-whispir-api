@@ -2,8 +2,9 @@ using System.Net;
 using System.Threading.Tasks;
 using Xunit;
 using RichardSzalay.MockHttp;
+using CoderPatros.WhispirApi;
 
-namespace Patros.WhispirApi.HttpClient.Tests
+namespace CoderPatros.WhispirApi.HttpClient.Tests
 {
     public class WhispirApiHttpClientTests
     {

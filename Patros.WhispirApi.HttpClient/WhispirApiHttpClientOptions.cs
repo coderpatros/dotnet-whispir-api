@@ -1,4 +1,4 @@
-namespace Patros.WhispirApi
+namespace CoderPatros.WhispirApi
 {
     public class WhispirApiHttpClientOptions
     {

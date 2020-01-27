@@ -1,7 +1,7 @@
 using System.Net.Http;
-using Patros.AuthenticatedHttpClient;
+using CoderPatros.AuthenticatedHttpClient;
 
-namespace Patros.WhispirApi
+namespace CoderPatros.WhispirApi
 {
     public class WhispirApiHttpMessageHandler : DelegatingHandler
     {

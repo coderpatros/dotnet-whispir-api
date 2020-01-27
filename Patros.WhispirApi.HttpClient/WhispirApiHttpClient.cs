@@ -1,6 +1,6 @@
 ﻿using System.Net.Http;
 
-namespace Patros.WhispirApi
+namespace CoderPatros.WhispirApi
 {
     public static class WhispirApiHttpClient
     {
