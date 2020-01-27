@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Patros.WhispirApi.HttpClient\Patros.WhispirApi.HttpClient.csproj" />
+    <ProjectReference Include="..\CoderPatros.WhispirApi.HttpClient\CoderPatros.WhispirApi.HttpClient.csproj" />
   </ItemGroup>
 
 </Project>

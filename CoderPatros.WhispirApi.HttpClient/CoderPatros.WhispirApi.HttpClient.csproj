@@ -2,14 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Product>Patros.WhispirApi.HttpClient</Product>
+    <Product>CoderPatros.WhispirApi.HttpClient</Product>
     <Authors>Patrick T Dwyer</Authors>
     <Company></Company>
     <Description>This package implements a HttpClient with handles Whispir API authentication requirements.</Description>
-    <PackageProjectUrl>https://github.com/patros/dotnet-whispir-api</PackageProjectUrl>
-    <PackageLicenseUrl>https://github.com/patros/dotnet-whispir-api/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/coderpatros/dotnet-whispir-api</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/coderpatros/dotnet-whispir-api/blob/master/LICENSE</PackageLicenseUrl>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/patros/dotnet-whispir-api.git</RepositoryUrl>
+    <RepositoryUrl>https://github.com/coderpatros/dotnet-whispir-api.git</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>

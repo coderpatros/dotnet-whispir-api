@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patros.WhispirApi.HttpClient", "Patros.WhispirApi.HttpClient\Patros.WhispirApi.HttpClient.csproj", "{2DF04BC3-68D2-41C1-A0A8-0E5FC9D0EFC0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoderPatros.WhispirApi.HttpClient", "CoderPatros.WhispirApi.HttpClient\CoderPatros.WhispirApi.HttpClient.csproj", "{2DF04BC3-68D2-41C1-A0A8-0E5FC9D0EFC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patros.WhispirApi.HttpClient.Tests", "Patros.WhispirApi.HttpClient.Tests\Patros.WhispirApi.HttpClient.Tests.csproj", "{B83C03B7-37D9-4066-B645-9FFB6E7C0F51}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoderPatros.WhispirApi.HttpClient.Tests", "CoderPatros.WhispirApi.HttpClient.Tests\CoderPatros.WhispirApi.HttpClient.Tests.csproj", "{B83C03B7-37D9-4066-B645-9FFB6E7C0F51}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
