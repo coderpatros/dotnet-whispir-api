@@ -13,7 +13,7 @@ namespace CoderPatros.WhispirApi.HttpClient.Tests
         {
             var mockHttp = new MockHttpMessageHandler();
             mockHttp
-                .Expect("http://www.example.com?apikey=test-api-key")
+                .Expect("http://www.example.com?apikey=test-api-key") // DevSkim: ignore DS137138
                 .WithHeaders("Authorization", "Basic dGVzdC11c2VybmFtZTp0ZXN0LXBhc3N3b3Jk")
                 .WithHeaders("x-api-key", "test-api-key")
                 .Respond(HttpStatusCode.OK);
@@ -24,7 +24,7 @@ namespace CoderPatros.WhispirApi.HttpClient.Tests
                 ApiKey = "test-api-key"
             }, mockHttp);
 
-            await client.GetStringAsync("http://www.example.com");
+            await client.GetStringAsync("http://www.example.com"); // DevSkim: ignore DS137138
 
             mockHttp.VerifyNoOutstandingExpectation();
         }
