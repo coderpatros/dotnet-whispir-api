@@ -13,7 +13,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CoderPatros.AuthenticatedHttpClient.Basic" Version="1.3.2" />
+    <PackageReference Include="CoderPatros.AuthenticatedHttpClient.Basic" Version="1.3.3" />
     <PackageReference Include="CoderPatros.AuthenticatedHttpClient.CustomHeader" Version="1.3.3" />
     <PackageReference Include="CoderPatros.AuthenticatedHttpClient.QueryStringParameter" Version="1.3.2" />
   </ItemGroup>
