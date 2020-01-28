@@ -7,6 +7,7 @@
 ![Nuget](https://img.shields.io/nuget/dt/CoderPatros.WhispirApi.HttpClient.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcoderpatros%2Fdotnet-whispir-api.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcoderpatros%2Fdotnet-whispir-api?ref=badge_shield)
+![Twitter Follow](https://img.shields.io/twitter/follow/coderpatros?style=social)
 
 Whispir Api Http Client
 =======================
